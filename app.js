@@ -37,7 +37,7 @@ app.use(function(err, req, res, next) {
 });
 
 const mongoose = require('mongoose');
-const mongoURI = 'mongodb://ms-user:makeschool1@ds127771.mlab.com:27771/rotten_potatoes'; // NO PARENTHESES
+const mongoURI = //ENTER YOUR OWN MONGODB URI
 
 // connect our app with our database
 mongoose.connect(mongoURI)
